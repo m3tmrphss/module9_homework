@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="3.js" defer></script>
+        <style>
+            .result img {
+                width: 300px;
+                height: auto;
+            }
+            .result {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 50px;
+                width: 90vw;
+                margin-top: 33px;
+            } 
+        </style>
+    </head>
+    <body>
+        <div class="input-container">
+            <input type="number" id="input" placeholder="Введите число">
+            <button type="submit" id="btn">Отправить</button>  
+        </div>
+        <div class="result"></div>
+    </body>
+</html>
